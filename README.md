@@ -12,7 +12,7 @@ To use pyskel as the start of a new project, do the following, preferably in
 a virtual environment.
 
 ```
-git clone https://github.com/mapbox/pyskel.git myproject
+git clone git@github.com:mapbox/pyskel.git myproject
 cd myproject
 pip install -e .[test]
 py.test
