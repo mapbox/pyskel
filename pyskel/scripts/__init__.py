@@ -4,8 +4,9 @@ import click
 
 import pyskel
 
-@click.command('pyskel', help="A Skeleton of a command line interface")
-@click.argument('count', type=int)
+@click.command('pyskel')
+@click.argument('count', type=int, metavar='N')
 def cli(count):
+    """Echo a value `N` number of times"""
     for i in range(count):
         click.echo(pyskel.has_legs)

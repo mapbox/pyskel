@@ -7,7 +7,7 @@ version = '1.0'
 
 
 # Get the long description from the relevant file
-with open('README.rst', encoding='utf-8') as f:
+with open('README.md', encoding='utf-8') as f:
     long_description = f.read()
 
 
