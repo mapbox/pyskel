@@ -14,7 +14,13 @@ a virtual environment.
 ```
 git clone https://github.com/mapbox/pyskel.git myproject
 cd myproject
-# rename
-pip install -e .
+pip install -e .[test]
 py.test
+```
+
+To try the command line script,
+
+```
+pyskel --help
+pyskel 4
 ```
