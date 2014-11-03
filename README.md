@@ -1,7 +1,7 @@
 Pyskel
 ======
 
-A skeleton of a Python package
+A skeleton of a Python package with CLI and test suite included.
 
 ![](https://farm4.staticflickr.com/3951/15672691531_3037819613_o_d.png)
 
