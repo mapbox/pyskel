@@ -37,9 +37,13 @@ To try the command line script.
     myproject --help
     myproject 4
 
-Nota Bene
----------
-
 To help prevent pyskel from being uploaded to PyPI, I've configured the setup's
 upload command to dry run. Make sure to remove this configuration from
-setup.cfg when you customize pyskel.
+`setup.cfg <https://docs.python.org/2/install/index.html#inst-config-syntax>`__
+when you customize pyskel.
+
+See also
+--------
+
+A post on the Mapbox blog has more information about this project:
+https://www.mapbox.com/blog/pyskel/.
