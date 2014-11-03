@@ -17,6 +17,7 @@ a virtual environment. Clone the repo.
     cd myproject
 
 Replace all occurrences of 'pyskel' with the name of your own project.
+(Note: the commands below require bash, find, and sed and are yet tested only on OS X.)
 
 .. code-block:: console
 
