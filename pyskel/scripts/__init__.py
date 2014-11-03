@@ -4,6 +4,7 @@ import click
 
 import pyskel
 
+
 @click.command('pyskel')
 @click.argument('count', type=int, metavar='N')
 def cli(count):

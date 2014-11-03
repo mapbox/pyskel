@@ -2,16 +2,13 @@ from codecs import open
 from setuptools import setup, find_packages
 
 
-version = '1.0'
-
-
 # Get the long description from the relevant file
-with open('README.md', encoding='utf-8') as f:
+with open('README.rst', encoding='utf-8') as f:
     long_description = f.read()
 
 
 setup(name='pyskel',
-      version=version,
+      version='0.0.1',
       description="Skeleton of a Python package",
       long_description=long_description,
       classifiers=[],
@@ -26,7 +23,7 @@ setup(name='pyskel',
       install_requires=[
           'click'
       ],
-      extras_require = {
+      extras_require={
           'test': ['pytest'],
       },
       entry_points="""
