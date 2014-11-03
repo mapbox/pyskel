@@ -16,11 +16,11 @@ a virtual environment. Clone the repo.
     git clone git@github.com:mapbox/pyskel.git myproject
     cd myproject
 
-Then replace all occurrences of 'pyskel' with the name of your own project.
+Replace all occurrences of 'pyskel' with the name of your own project.
 
 .. code-block:: console
 
-    find . -not -path './.git*' -type f -exec sed -i '' -e 's/pyskel/myproject/g' {} +
+    if [ -d pyskel ]; then find . -not -path './.git*' -type f -exec sed -i '' -e 's/pyskel/myproject/g' {} + ; fi
     mv pyskel myproject
 
 Then install in locally editable (``-e``) mode and run the tests.
