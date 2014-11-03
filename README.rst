@@ -13,7 +13,7 @@ a virtual environment. Clone the repo.
 
 .. code-block:: console
 
-    git clone git@github.com:mapbox/pyskel.git myproject
+    git clone https://github.com/mapbox/pyskel myproject
     cd myproject
 
 Replace all occurrences of 'pyskel' with the name of your own project.
