@@ -37,8 +37,9 @@ To try the command line script.
     myproject --help
     myproject 4
 
-To help prevent pyskel from being uploaded to PyPI, I've configured the setup's
-upload command to dry run. Make sure to remove this configuration from
+To help prevent uncustomized forks of pyskel from being uploaded to PyPI,
+I've configured the setup's upload command to dry run. Make sure to remove
+this configuration from
 `setup.cfg <https://docs.python.org/2/install/index.html#inst-config-syntax>`__
 when you customize pyskel.
 
