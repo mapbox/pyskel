@@ -5,8 +5,8 @@ A skeleton of a Python package with CLI and test suite included.
 
 .. image:: https://farm4.staticflickr.com/3951/15672691531_3037819613_o_d.png
 
-Quick start
------------
+Customization quick start
+-------------------------
 
 To use pyskel as the start of a new project, do the following, preferably in
 a virtual environment. Clone the repo.
@@ -36,3 +36,10 @@ To try the command line script.
 
     myproject --help
     myproject 4
+
+Nota Bene
+---------
+
+To help prevent pyskel from being uploaded to PyPI, I've configured the setup's
+upload command to dry run. Make sure to remove this configuration from
+setup.cfg when you customize pyskel.
