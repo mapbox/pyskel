@@ -1,6 +1,5 @@
-from codecs import open  # To use a consistent encoding
+from codecs import open
 from setuptools import setup, find_packages
-import sys, os
 
 
 version = '1.0'
@@ -13,7 +12,7 @@ with open('README.md', encoding='utf-8') as f:
 
 setup(name='pyskel',
       version=version,
-      description="PSkeleton of a Python package",
+      description="Skeleton of a Python package",
       long_description=long_description,
       classifiers=[],
       keywords='',
