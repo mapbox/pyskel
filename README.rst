@@ -50,6 +50,11 @@ https://www.mapbox.com/blog/pyskel/.
 See also
 --------
 
-- `cookiecutter-pypackage <https://github.com/audreyr/cookiecutter-pypackage>`__,
-  a Cookiecutter template for a Python package
+Here are a few other tools for initializing Python projects.
+
+- Paste Script's `paster create <http://pythonpaste.org/script/#paster-create>`__ is
+  one that I've used for a long time.
+- `cookiecutter-pypackage <https://github.com/audreyr/cookiecutter-pypackage>`__ is
+  a Cookiecutter template for a Python package. Cookiecutter supports many languages,
+  includes Travis configuration and much more.
 
