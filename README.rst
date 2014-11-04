@@ -44,8 +44,12 @@ this configuration from
 `setup.cfg <https://docs.python.org/2/install/index.html#inst-config-syntax>`__
 when you customize pyskel.
 
+A post on the Mapbox blog has more information about this project:
+https://www.mapbox.com/blog/pyskel/.
+
 See also
 --------
 
-A post on the Mapbox blog has more information about this project:
-https://www.mapbox.com/blog/pyskel/.
+- `cookiecutter-pypackage <https://github.com/audreyr/cookiecutter-pypackage>`__,
+  a Cookiecutter template for a Python package
+
