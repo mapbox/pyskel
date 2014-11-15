@@ -1,13 +1,13 @@
 pyskel
 ======
-   
-A skeleton of a Python package with CLI and test suite included.
 
 .. image:: https://travis-ci.org/mapbox/pyskel.svg
    :target: https://travis-ci.org/mapbox/pyskel
 
 .. image:: https://coveralls.io/repos/mapbox/pyskel/badge.png
    :target: https://coveralls.io/r/mapbox/pyskel
+
+A skeleton of a Python package with CLI and test suite included.
    
 .. image:: https://farm4.staticflickr.com/3951/15672691531_3037819613_o_d.png
 
