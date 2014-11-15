@@ -9,11 +9,11 @@ with codecs_open('README.rst', encoding='utf-8') as f:
 
 setup(name='pyskel',
       version='0.0.1',
-      description="Skeleton of a Python package",
+      description=u"Skeleton of a Python package",
       long_description=long_description,
       classifiers=[],
       keywords='',
-      author='Sean Gillies',
+      author=u"Sean Gillies",
       author_email='sean@mapbox.com',
       url='https://github.com/mapbox/pyskel',
       license='MIT',
