@@ -52,7 +52,7 @@ when you customize pyskel.
 
 Please also note that the Travis-CI and Coveralls badge URLs and links in the README
 contain the string 'mapbox.' You'll need to change this to your own user or organization
-name.
+name and turn on the webhooks for your new project.
 
 A post on the Mapbox blog has more information about this project:
 https://www.mapbox.com/blog/pyskel/.
