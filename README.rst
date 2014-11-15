@@ -1,8 +1,14 @@
 pyskel
 ======
-
+   
 A skeleton of a Python package with CLI and test suite included.
 
+.. image:: https://travis-ci.org/mapbox/pyskel.svg
+   :target: https://travis-ci.org/mapbox/pyskel
+
+.. image:: https://coveralls.io/repos/mapbox/pyskel/badge.png
+   :target: https://coveralls.io/r/mapbox/pyskel
+   
 .. image:: https://farm4.staticflickr.com/3951/15672691531_3037819613_o_d.png
 
 Customization quick start
@@ -43,6 +49,10 @@ I've configured the setup's upload command to dry run. Make sure to remove
 this configuration from
 `setup.cfg <https://docs.python.org/2/install/index.html#inst-config-syntax>`__
 when you customize pyskel.
+
+Please also note that the Travis-CI and Coveralls badge URLs and links in the README
+contain the string 'mapbox.' You'll need to change this to your own user or organization
+name.
 
 A post on the Mapbox blog has more information about this project:
 https://www.mapbox.com/blog/pyskel/.
